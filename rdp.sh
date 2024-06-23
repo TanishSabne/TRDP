@@ -39,7 +39,7 @@ log "Disabling lightdm service"
 sudo systemctl disable lightdm.service
 
 # Install Firefox ESR
-sudo apt install firefox-esr
+sudo apt-get install firefox-esr
 
 # Install Burp Suite Community Edition
 wget -q --show-progress -O "burp.sh" "$burp_url"
