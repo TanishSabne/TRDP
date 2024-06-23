@@ -28,7 +28,7 @@ sudo apt-get install --fix-broken -y
 
 # Install XFCE desktop environment
 log "Installing XFCE desktop environment"
-sudo apt-get install xfce4 -y
+sudo apt-get install xfce4 dbus-x11 xfce4-goodies desktop-base xscreensaver -y
 
 # Set up Chrome Remote Desktop session
 log "Setting up Chrome Remote Desktop session"
